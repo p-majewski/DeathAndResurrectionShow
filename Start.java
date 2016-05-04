@@ -11,7 +11,7 @@ public class Start {
 		ts = TimeServer.getTimeServer();
 
 //		We'll play the simulation just once so I commented out the loop		
-//		long ns = System.currentTimeMillis();
+//		long ms = System.currentTimeMillis();
 //		for(int i = 0; i < 10000; i++){
 //			System.out.print(i);
 			Soul s = new Soul();
@@ -20,7 +20,7 @@ public class Start {
 			ts.deleteObserver(s);
 			ts.reset();
 //		}
-//		System.out.println("in " + (System.currentTimeMillis() - ns)/1000f + " seconds");
+//		System.out.println("in " + (System.currentTimeMillis() - ms)/1000f + " seconds");
 	}
 
 }
