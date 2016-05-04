@@ -1,5 +1,4 @@
 import java.util.Random;
-import java.util.Observer;
 
 public abstract class Animal {
 
